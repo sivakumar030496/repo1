@@ -518,11 +518,11 @@
 # print(n)
 
 
-# a=[1,2,3,4,5,6,7,8,9,10]
-# b=[1,2,3,4,5]
-# print(set(a).intersection(b))
-# n=[x for x in a if x in b]
-# print(n)
+a=[1,2,3,4,5,6,7,8,9,10]
+b=[1,2,3,4,5]
+print(set(a).intersection(b))
+n=[x for x in a if x in b]
+print(n)
 
 
 # print(a[1::2])
@@ -589,14 +589,14 @@
 # for ele in n.split( ):
 #     p=ele+" "+p
 # print(p)
-
+#
 # def cubicvar():
 #     i = 1
 #     while True:
 #         yield i+i+i
 #
 #         i += 1
-
+#
 # for num in cubicvar():
 #     if num > 1000:
 #         break
@@ -769,4 +769,61 @@
 #     if l[i]<min:
 #         max=l[i]
 # print(min)
+
+# a=[1,1,2,2,3,3,4,4]
+# b=[]
+# for i in a:
+#     if i not in b:
+#         b.append(i)
+# print(b)
+# for i in range(len(a)):
+#     for j in range(i+1,len(a)):
+#         if a[i]==a[j]:
+#             print(a[j],end=" ")
+
+#
+# s="iam fulka"
+# n=''
+# for i in s:
+#     n=i+""+n
+# p=''
+# for j in n.split():
+#     p=j+" "+p
+# print(p)
+#
+#
+# st="iam fulka"
+# l=[]
+# for i in st.split():
+#     l.append(i[::-1])
+# print(' '.join(l))
+
+
+
+# l1=[1,2,3,4,5]
+# l2=[]
+# for i in l1:
+#     l2.insert(0,i)
+# print(l2)
+#
+# x=[x for x in reversed(l1)]
+# print(x)
+
+# L=len(l1)
+# for i in range(int(L/2)):
+#     n=l1[i]
+#     l1[i]=l1[L-i-1]
+#     l1[L-i-1]=n
+# print(l1)
+
+
+
+
+
+
+
+
+
+
+
 
