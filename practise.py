@@ -2922,3 +2922,111 @@ import re
 # start_time = time.monotonic()
 # end_time = time.monotonic()
 # print(timedelta(seconds=end_time - start_time))
+
+# l=[1,2,3,"bhanu","siva"]
+# a=[]
+# b=[]
+# for i in l:
+#     if type(i)==int:
+#         a.append(i)
+#     elif type(i)==str:
+#         b.append(i)
+# print(a)
+# print(b)
+
+# def flat_list(l):
+#     res=[]
+#     for i in l:
+#         if type(i)==list:
+#             res.extend(i)
+#         else:
+#             res.append(i)
+#     for j in res:
+#         if type(j)==list:
+#            return flat_list(res)
+#     return res
+# l=[1,[2,[3,[6,[7]]]]]
+# print(flat_list(l))
+
+# s="my name is siva"
+
+# print(list[2])
+# list=[1,2,3,4,5,6,7,8,9]
+# print(list[0::3],list[1::3],list[2::3])
+# print(list[2:5])
+
+# l1=[1,4,7]
+# l2=[2,5,8]
+# l3=[3,6,9]
+
+
+# Employee = {"Name": "John", "Age": 29, "salary":25000,"Company":"GOOGLE"}
+# # print('\ncreating dict method:')
+# # print(Employee)
+# for x in Employee.pop('Age'):
+#     print(x)
+
+# d=dict([(1,'siva'),(2,'kumar')])
+# print(d)
+# d1={}
+# print(d1)
+# for i in Employee.popitem():
+#     print(i)
+#     print(Employee)
+
+# class overloading:
+#     def display(self,a=None,b=None,c=None):
+#         print(a,b,c)
+# obj=overloading()
+# obj.display()
+# obj.display(10)
+# obj.display(10,20)
+# obj.display(10,20,30)
+
+
+# A= [1,2,3,4]
+# B= [2,3,4,5]
+# c=[]
+# for i in A:
+#     if i not in B:
+#         c.append(i)
+# print(c)
+
+# l=[1,2,3,4,5,6,7,8,9]
+# for i in range(len(l)):
+#     if l[i]%2!=0:
+#         l[i]=-1
+# print(l)
+
+# s='SampLE STRing'
+# str=''
+# for i in range(len(s)):
+#     if s[i].isupper():
+#         str+=s[i].lower()
+#     elif s[i].islower():
+#         str+=s[i].upper()
+#     else:
+#         str+=s[i]
+# print(str)
+
+# n=1234
+# print(str(n)[::-1])
+#
+num = 1234
+reversed_num = 0
+
+while num != 0:
+    digit = num % 10
+    reversed_num = reversed_num * 10 + digit
+    num //= 10
+
+print("Reversed Number: " + str(reversed_num))
+
+
+# l=['a','e','i','o','u']
+# l.sort()
+# print(l)
+
+
+
+

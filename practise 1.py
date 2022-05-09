@@ -83,8 +83,8 @@
 # dict2={'c':30,'d':40}
 # print(merge(dict1,dict2))
 # print(dict2)
-#
-#
+
+
 # def merge(dict1,dict2):
 #     res=dict1 | dict2
 #     return res
@@ -376,6 +376,8 @@
 
 # j=[x for x in range(20) if x%2==0]
 # print(j)
+
+
 #
 # y=[u for u in range(100) if u%2==0 if u%5==0]
 # print(y)
@@ -459,7 +461,7 @@
 #        c.append(i)
 #
 #     elif type(i)==str:
-#         v=s.append(i)
+#         s.append(i)
 # print(c)
 # print(s)
 
@@ -480,6 +482,7 @@
 # for i in l:
 #     count=count+int(i)
 # print(count)
+
 
 # l=list(map(int,input("Enter array elements:").split(" ")))
 # min1=l[0]
@@ -518,11 +521,11 @@
 # print(n)
 
 
-a=[1,2,3,4,5,6,7,8,9,10]
-b=[1,2,3,4,5]
-print(set(a).intersection(b))
-n=[x for x in a if x in b]
-print(n)
+# a=[1,2,3,4,5,6,7,8,9,10]
+# b=[1,2,3,4,5]
+# print(set(a).intersection(b))
+# n=[x for x in a if x in b]
+# print(n)
 
 
 # print(a[1::2])
@@ -798,8 +801,6 @@ print(n)
 #     l.append(i[::-1])
 # print(' '.join(l))
 
-
-
 # l1=[1,2,3,4,5]
 # l2=[]
 # for i in l1:
@@ -813,8 +814,40 @@ print(n)
 # for i in range(int(L/2)):
 #     n=l1[i]
 #     l1[i]=l1[L-i-1]
-#     l1[L-i-1]=n
+# l1[L-i-1]=n
 # print(l1)
+
+# n=1234
+# print(str(n)[::-1])
+# reversed=0
+# while n!=0:
+#     digit=n%10
+#     reversed=reversed*10+digit
+#     n//=10
+# print(reversed)
+
+# l=[4, 2, 3, -1, -2, 0, 1]
+# for i in range(len(l)):
+#     for j in range(i+1,len(l)):
+#         if l[i]>l[j]:
+#             l[i],l[j]=l[j],l[i]
+# print(l)
+
+# l1=[1,1,2,2,3,3,4,5]
+# for i in range(len(l1)):
+#     for j in range(i+1,len(l1)):
+#         if l1[i]==l1[j]:
+#             print(l1[j],end=" ")
+# l2=[]
+# for i in l1:
+#     if i not in l2:
+#         l2.append(i)
+# print(l2)
+#
+# res=[]
+# [res.append(i) for i in l1 if i not in res]
+# print(res)
+
 
 
 
