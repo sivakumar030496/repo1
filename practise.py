@@ -3012,21 +3012,27 @@ import re
 # n=1234
 # print(str(n)[::-1])
 #
-num = 1234
-reversed_num = 0
-
-while num != 0:
-    digit = num % 10
-    reversed_num = reversed_num * 10 + digit
-    num //= 10
-
-print("Reversed Number: " + str(reversed_num))
+# num = 1234
+# reversed_num = 0
+#
+# while num != 0:
+#     digit = num % 10
+#     reversed_num = reversed_num * 10 + digit
+#     num //= 10
+#
+# print("Reversed Number: " + str(reversed_num))
 
 
 # l=['a','e','i','o','u']
 # l.sort()
 # print(l)
 
+
+# s={10,12,3,7,6,5,4,2,1,13}
+# t=13
+# for i in s:
+#     if t-i in s:
+#         print(t-i,i)
 
 
 
