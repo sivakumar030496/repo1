@@ -3034,5 +3034,14 @@ import re
 #     if t-i in s:
 #         print(t-i,i)
 
-
+n="xxx yyy zzz xxx"
+d=dict()
+for i in n:
+    if i not in d:
+        d[i]=1
+    else:
+        d[i]+=1
+# print(d)
+for k,v, in d.items():
+    print(k,v, sep=":")
 
