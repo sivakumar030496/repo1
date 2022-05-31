@@ -2606,8 +2606,7 @@ import re
 
 # l.sort()
 # print(l[-2]
-# \
-# )
+
 
 # n=int(input("enter the rows:"))
 # for i in range(0,n+1):
@@ -3044,10 +3043,3 @@ import re
 # # print(d)
 # for k,v, in d.items():
 #     print(k,v, sep=":")
-
-s='my name is siva'
-n=" "
-for i in s.split():
-    n=i+" "+n
-print(n)
-print(s[::-1])
